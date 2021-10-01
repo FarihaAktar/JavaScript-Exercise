@@ -1,34 +1,35 @@
 // 2D array
-// const arr = new Array(3)
+const arr = new Array(3)
 
-// for (let i = 0; i < arr.length; i++) {
-//     arr[i] = []
-// }
-// let value = 0
-// for (let i = 0; i < 3; i++) {
-//     for (let j = 0; j < 5; j++) {
-//         arr[i][j] = value++;
-//         console.log(arr[i][j])
-//     }
-//        console.log('-')
-// }
+for (let i = 0; i < arr.length; i++) {
+    arr[i] = []
+}
+let value = 0
+for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 5; j++) {
+        arr[i][j] = value++;
+        // console.log(arr[i][j])
+    }
+    //    console.log('-')
+}
 
 
 // console.log(arr)
 // let maxValue = Number.MIN_VALUE
 
-// for (let i = 0; i < 1; i++) {
-//     for (let j = 0; j < 2; j++) {
-//         console.log(arr[i][j], arr[i][j + 1], arr[i][j + 2], arr[i+1][j + 1], arr[i+2][j],arr[i+2][j+1],arr[i+2][j+2])
-//         console.log(arr[i][j]+ arr[i][j + 1]+ arr[i][j + 2]+ arr[i+1][j + 1]+ arr[i+2][j]+arr[i+2][j+1]+arr[i+2][j+2])
-//         const sum = arr[i][j]+ arr[i][j + 1]+ arr[i][j + 2]+ arr[i+1][j + 1]+ arr[i+2][j]+arr[i+2][j+1]+arr[i+2][j+2]
-//         maxValue = Math.max(maxValue, sum)
-//     }
-// }
+for (let i = 0; i < 1; i++) {
+    for (let j = 0; j < 2; j++) {
+        console.log(arr[i][j], arr[i][j + 1], arr[i][j + 2], arr[i+1][j + 1], arr[i+2][j],arr[i+2][j+1],arr[i+2][j+2])
+        console.log(arr[i][j]+ arr[i][j + 1]+ arr[i][j + 2]+ arr[i+1][j + 1]+ arr[i+2][j]+arr[i+2][j+1]+arr[i+2][j+2])
+        const sum = arr[i][j]+ arr[i][j + 1]+ arr[i][j + 2]+ arr[i+1][j + 1]+ arr[i+2][j]+arr[i+2][j+1]+arr[i+2][j+2]
+        maxValue = Math.max(maxValue, sum)
+    }
+}
 // console.log(maxValue)
 
 // console.log(Number.MIN_VALUE)
 
+// hour glass sum calculation with 3 types of array
 const arr1 = [[0, -4, -6, 0, -7, -6], [-1, -2, -6, -8, -3, -1], [-8, -4, -2, -8, -8, -6], [-3, -1, -2, -5, -7, -4], [-3, -5, -3, -6, -6, -6], [-3, -6, 0, -8, -6, -7]]
 const arr2 = [[-1, 1, -1, 0, 0, 0],[0, -1, 0, 0, 0, 0],[-1, -1, -1, 0, 0, 0],[0, -9, 2, -4, -4, 0],[-7, 0, 0, -2, 0, 0],[0, 0, -1, -2, -4 ,0]]
 const arr3 = [[1, 1, 1, 0, 0, 0], [0, 1, 0, 0, 0, 0], [1, 1, 1, 0, 0, 0], [0, 9, 2, -4, -4, 0], [0, 0, 0, -2, 0, 0], [0, 0, -1, -2, -4, 0]]
