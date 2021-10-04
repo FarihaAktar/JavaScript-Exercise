@@ -25,7 +25,9 @@ const printLinkedList = (value) => {
     let temp = value;
     while (temp.next !== null) {
         console.log(temp.data)
+        // console.log(temp)
         temp = temp.next
+        // console.log(temp)
     }
     console.log(temp.data)
 }
