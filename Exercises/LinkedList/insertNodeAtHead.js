@@ -11,7 +11,9 @@ class LinkedList {
     }
 }
 
-const list = new LinkedList()
+const node1 = new SinglyLinkedListNode(1)
+
+const list = new LinkedList(node1)
 
 
 const insertNodeAtHead = (head, data) => {
@@ -28,4 +30,4 @@ const insertNodeAtHead = (head, data) => {
 }
 
 insertNodeAtHead(list.head, 23)
-insertNodeAtHead(list.head, 24)
+// insertNodeAtHead(list.head, 24)

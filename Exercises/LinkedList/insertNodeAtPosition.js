@@ -93,5 +93,5 @@ const insertNodeAtPosition1 = (head, data, index)=>{
 }
 
 
-insertNodeAtPosition1(list.head, 5, 0)
+insertNodeAtPosition1(list.head, 5, 1)
 
