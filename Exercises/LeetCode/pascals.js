@@ -20,4 +20,4 @@ const pascals = (numRows) => {
     // console.log(result)
 }
 
-console.log(pascals(3))
+console.log(pascals(1))
