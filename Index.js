@@ -20,9 +20,10 @@
 // const b = a
 // const c = {x : 13}
 // const d = {...c}
+// const e = {c}
 // console.log(a === b)
 // console.log(c === d)
-// console.log(a === d)
+// console.log(e, c === e)
 
 // const str = 'hello world'
 // console.log(str.length)
@@ -43,7 +44,7 @@ const countVowels = (str) => {
     return count
 }
 
-const res = countVowels("aeiou")
+// const res = countVowels("aeiou")
 // console.log(res)
 
 // countVowels("Romel + Fariha")
@@ -64,6 +65,10 @@ const reverseArray = (arr) => {
 
 
 }
-reverseArray([])
+// reverseArray([])
 // const arr = [1, 2, 3]
 // console.log(Array.isArray(arr))
+
+// const arr1 = [1,2,3];
+// const arr2 = [arr1];
+// console.log(arr1 === arr2)
